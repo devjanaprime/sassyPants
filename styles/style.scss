@@ -1,0 +1,21 @@
+$primaryColor: black;
+$textColor0: orange;
+$textColor1: red;
+
+body {
+    background: $primaryColor;
+}
+
+p {
+  $textColor0: yellow;
+  color: $textColor0;
+}
+
+h1{
+  color: $textColor0;
+}
+
+h2{
+  color: $textColor1;
+
+}
